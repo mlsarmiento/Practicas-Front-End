@@ -1,0 +1,39 @@
+body{
+    width: 100%;
+    height: 700px;
+}
+
+.grandparent{
+    border: solid;
+    border-color: green;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.parent1{
+    width: 60%;
+    border: solid;
+    border-color: pink;
+}
+
+.parent2{
+    border: solid;
+    border-color: red;
+    width: 30%;
+    height: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.grandchild{
+    border: solid;
+    border-color: blue;
+    width: 30%;
+}
+
+

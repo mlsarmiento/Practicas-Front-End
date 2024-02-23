@@ -1,0 +1,123 @@
+/* p {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+} */
+
+/* .title {
+    position: fixed;
+    top:480px;
+    color: black;
+    width: 400px ;
+    height: 36px;
+} */
+
+body{
+    background-image: url('https://s3-alpha-sig.figma.com/img/ddfc/9c02/0403bc580ba674b244901a308625ea2a?Expires=1708905600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=APAf4-asnC9aIEytD4QA4DYNuS3m0B1UCSCSE9gizcCSAldtlqvBEGf-1-w2RuQSVGQmyt0dv8OSbwC942xTzuhqaKQrmQqRtBvShzdfHS2nOK9hmTxudD3HTdaOWO8ILXSGtiy3Tbb7NYf22jF5mE6BUAbtkKFiesBX1w0z0rIXgtazHpLsJGsGLarDplq-PnWKrz~jLgbrSAf9~bxDYr93tqOV2WxBjLDt1AaGRwe9wmZk-rLRa0bFVqECb3BOZXBXMqrTZGqxPK8X13g4xzv3VFzfnN2HCe7NBH0mjG7J6xAFnX4aTDtRBAYvd54k6dH0Y0uRo-f6f1fFkdpl7g__');
+    background-size: 100%;  
+    margin: 0; 
+    width: 100%;
+    height: 700px;
+    
+}
+
+section{
+    background-image: linear-gradient(rgba(98,144,248,0.85),rgba(125,76,241,0.85), rgba(146,28,213,0.85), rgba(255,255,255,1));
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.grandparent{
+    border: solid;
+    border-color: green;
+    width: 83%;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.parent1{
+    width: 58%;
+    height: 100%;
+    border: solid;
+    border-color: pink;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.parent2{
+    border: solid;
+    border-color: red;
+    width: 42%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgba(255,255,255,1);
+}
+
+.grandchild1{
+    border: solid;
+    border-color: blue;
+    width: 75%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.grandchild2{
+    border: solid;
+    border-color: blue;
+    width: 75%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.grandchild3{
+    border: solid;
+    border-color: blue;
+    width: 75%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.grandchild4{
+    border: solid;
+    border-color: blue;
+    width: 75%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.titulo{font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(45,45,45,1);
+    margin: 0;
+}
+
+.valor{font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(68,0,150,1);
+    margin: 0;
+}
+
